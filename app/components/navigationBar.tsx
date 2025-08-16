@@ -23,7 +23,7 @@ export function NavigationBar() {
   );
 }
 
-function NavigationCard({
+export function NavigationCard({
   img,
   name,
   height,

@@ -1,3 +1,11 @@
+type Searchbutton={
+  name: string;
+  description?: string;
+  width: number;
+  text: string;
+
+}
+
 export function Searchbar() {
   return (
     <div className="bg-white mb-10  border-2 border-slate-200 w-[53rem] h-15 rounded-full text-sm shadow-lg flex flex-row  items-center w- ">
@@ -23,10 +31,10 @@ export function Searchbar() {
       />
       <div className="h-8 border-r-1 border-slate-300"></div>
       <div
-        className={`w-[30rem] h-full flex flex-row text-left hover:bg-[#F2F4F6]  rounded-full pr-2 justify-between items-center pl-2 `}
+        className={`w-[120rem] h-full flex flex-row text-left hover:bg-[#F2F4F6]  rounded-full pr-2 justify-between items-center pl-2 `}
       >
         <div>
-          <button className="text-left">Who</button>
+          <div className="text-left">Who</div>
           <div className="text-slate-700">Add guests</div>
         </div>
         <button className="bg-[#FF5C5C] w-10 h-10 rounded-full flex justify-center items-center hover:cursor-pointer hover:bg-[#D70040]">
@@ -45,20 +53,15 @@ export function Searchbar() {
   );
 }
 
-function SearchButtons({
+export function SearchButtons({
   width,
   name,
   description,
   text,
-}: {
-  name: string;
-  description: string;
-  width: number;
-  text: string;
-}) {
+}: Searchbutton) {
   return (
     <button
-      className={`w-${width} h-full flex flex-col ${text} hover:bg-[#F2F4F6]  rounded-full p-3  `}
+      className={`w-${width==96?`[120rem]`:`full`} h-full flex flex-col ${text} hover:bg-[#F2F4F6]  rounded-full p-3  `}
     >
       {name}
       <div className="text-slate-700">{description}</div>

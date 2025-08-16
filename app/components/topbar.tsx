@@ -5,7 +5,7 @@ import { Settings } from "./settings";
 
 export async function Topbar() {
   return (
-    <div className="bg-slate-50 w-full h-full border-b-2 border-b-slate-100 justify-center ">
+    <div className="bg-slate-50 w-full  border-b-2 border-b-slate-100  ">
       <div className=" flex flex-row justify-around">
         <Logo />
         <NavigationBar />
