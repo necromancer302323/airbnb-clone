@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export function Card({ img,link }: { img: string,link:string }) {
+export function Card({ img,link }: { img: string[],link:string }) {
   return (
     <div className="relative">
  <Link href="https://google.com" rel="noopener noreferrer" target="_blank"> 

@@ -16,12 +16,12 @@ export function BrowsingSection() {
         </svg>
       </div>
       <div className="w-full flex flex-row justify-center gap-4 pt-6">
-        <Card link="" img="" />
-        <Card link="" img="" />
-        <Card link="" img="" />
-        <Card link="" img="" />
-        <Card link="" img="" />
-        <Card link="" img="" />
+        <Card link="" img={[""]} />
+        <Card link=""  img={[""]} />
+        <Card link=""  img={[""]} />
+        <Card link="" img={[""]} />
+        <Card link=""  img={[""]} />
+        <Card link=""  img={[""]} />
       </div>
     </div>
   );

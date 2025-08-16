@@ -6,7 +6,7 @@ import { Settings } from "./settings";
 export async function RoomTopbar() {
   return (
     <div className=" w-full border-b-2 border-b-slate-100 mt-3 ">
-      <div className=" flex flex-row justify-center gap-20">
+      <div className=" flex flex-row justify-center gap-60">
         <Logo />
         <div className="bg-white mt-5  border-2 border-slate-200 w-[20rem] h-12 rounded-full text-sm shadow-md flex flex-row  items-center relative font-semibold ">
           <div  className="flex flex-row">
