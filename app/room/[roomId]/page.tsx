@@ -1,7 +1,9 @@
+import { RoomDescription } from "@/app/components/roomDescription";
 import { RoomHeroSection } from "@/app/components/roomHeroSection";
 
 export default function Room(){
-    return <div className="w-full flex justify-center mt-10">
+    return <div className="w-full flex flex-col items-center  mt-10">
         <RoomHeroSection name="" />
-    </div>
+        <RoomDescription description="" location=""/>
+        </div>
 }

@@ -19,7 +19,7 @@ export async function RoomTopbar() {
             className={`w-[120rem] h-full flex flex-row text-left hover:bg-[#F2F4F6]  rounded-full pr-2 justify-between items-center  `}
           >
             <SearchButtons width={5} text="text-left" name="Add guests" />
-            <button className="bg-[#FF5C5C] w-8 h-8 rounded-full flex justify-center items-center hover:cursor-pointer hover:bg-[#D70040] absolute right-1">
+            <button className="bg-[#f62e2e] w-8 h-8 rounded-full flex justify-center items-center hover:cursor-pointer hover:bg-[#D70040] absolute right-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height={20}
