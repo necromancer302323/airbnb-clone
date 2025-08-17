@@ -1,9 +1,10 @@
+import { HostDetailedDescription } from "@/app/components/ownerDescription";
 import { Review } from "@/app/components/Review";
 import { RoomDescription } from "@/app/components/roomDescription";
 import { RoomHeroSection } from "@/app/components/roomHeroSection";
 
 export default function Room(){
-    return <div className="w-full flex flex-col items-center  mt-10 overflow-scroll">
+    return <div className="w-full flex flex-col gap-0 items-center mt-10 overflow-scroll">
         <RoomHeroSection name="" />
         <RoomDescription description="" location=""/>
          <img
@@ -13,5 +14,8 @@ export default function Room(){
         }
       />
         <Review/>
+        <div className="pb-10 w-[75rem]">
+           <HostDetailedDescription/>
+        </div>
         </div>
 }
