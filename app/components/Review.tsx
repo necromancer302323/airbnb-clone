@@ -1,8 +1,9 @@
 import { RatingBar } from "./RatingBar";
+import { TestimonialSection } from "./testimonialSection";
 
 export function Review() {
-  return (
-    <div className="mb-40 w-[75rem] justify-center border-b border-b-slate-300 pb-10">
+  return (<div className="mb-40  justify-center">
+    <div className=" w-[75rem] justify-center border-b border-b-slate-300 pb-10">
       <div className="flex justify-around  ">
         <RatingBar />
         <Score
@@ -90,8 +91,9 @@ export function Review() {
           }
         />
       </div>
-
     </div>
+          <TestimonialSection/>
+          </div>
   );
 }
 
