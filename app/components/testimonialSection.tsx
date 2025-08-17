@@ -66,10 +66,14 @@ export function TestimonialSection(){
   >
     Show more
   </a>
-
 </article>
-
         })}
+        <div className="flex items-baseline-last gap-2">
+        <button className="w-60 bg-slate-100 rounded-xl mb-10 p-3 font-[500] hover:cursor-pointer hover:bg-slate-200">
+       Show all 38 amenities
+      </button>
+      <text className="text-xs underline text-slate-600">Learn how reviews work</text>
+      </div>
     </div>
 
  
