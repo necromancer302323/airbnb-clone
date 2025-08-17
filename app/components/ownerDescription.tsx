@@ -1,6 +1,6 @@
 export function OwnersDescription() {
   return (
-    <div className="w-[46rem]  border-b-1 h-18 border-slate-300 mt-5 flex flex-row gap-10">
+    <div className="w-[46rem]  border-b-1 h-18 border-slate-300 mt-5  flex flex-row gap-10">
       <img
         className="rounded-full h-10" 
         width={30}

@@ -1,4 +1,4 @@
-export function BuyBox({ price }: { price: string }) {
+export function RentBox({ price }: { price: string }) {
   return (
     <div className="shadow-2xl w-[21rem] h-64 pt-7 pl-5 pr-5 rounded-2xl flex flex-col ">
       <text className="text-xl font-semibol font-sans">Add dates for prices</text>
