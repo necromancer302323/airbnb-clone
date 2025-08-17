@@ -3,7 +3,7 @@ import Link from "next/link";
 export function Card({ img,link }: { img: string[],link:string }) {
   return (
     <div className="relative">
- <Link href="https://google.com" rel="noopener noreferrer" target="_blank"> 
+ <Link href="http://localhost:3000/room/1" rel="noopener noreferrer" target="_blank"> 
       <img
         className="rounded-3xl h-64 hover:cursor-pointer"
         alt="img"
